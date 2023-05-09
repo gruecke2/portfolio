@@ -1,17 +1,17 @@
 {
     "basic_info": {
-      "name": "Davina Griss",
-      "titles": [ "Front-end Developer", "Senior Data Engineer", "Dev Team lead", "Mobile App Developer" ],
+      "name": "Garret Rueckert",
+      "titles": [ "Full-Stack Developer", "Software Engineer", "Web Developer", "Mobile App Developer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/gruecke2",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/gruecke2/",
+          "class": "fab fa-linkedin"
         }
       ],
       "image": "myProfile.jpg"
@@ -31,6 +31,11 @@
         {
           "name": "Angular",
           "class": "devicon-angularjs-plain",
+          "level": "80"
+        },
+        {
+          "name": "React",
+          "class": "devicon-react-plain",
           "level": "80"
         },
         {
