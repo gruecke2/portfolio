@@ -30,7 +30,7 @@ const About = (props) => {
           <div className="col-md-4 mb-5 center">
             <div className="polaroid">
               <span style={{ cursor: "auto" }}>
-                <img src={myProfilePic} alt="Avatar placeholder" />
+                <img src={"./images/myProfile.jpg"} alt="Avatar placeholder 2" />
                 <Icon
                   icon={angularIcon}
                   style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
