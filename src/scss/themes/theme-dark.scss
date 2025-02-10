@@ -11,7 +11,7 @@ body[data-theme="dark"] {
    }
 
    .header-icon {
-      color: #fe6601;
+      color: #ffffff;
       opacity: 0.8;
    }
 
@@ -104,4 +104,8 @@ body[data-theme="dark"] {
    .close-icon {
       color: white;
    }
+   .parallax {
+      background-image: url('../../assets/images/midnight_modern.png');
+   }
+
 }
