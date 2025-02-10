@@ -41,10 +41,8 @@ header {
 	text-align: center;
 	overflow: hidden;
 	background-color: #fe6601;
-	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
 }
@@ -479,3 +477,15 @@ footer a:focus {
 		transition: 1s ease-in;
 	}
 }
+
+.parallax {
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	@media (max-width: 1024px) {
+		background-size: cover;
+	}
+
+}
+
