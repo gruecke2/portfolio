@@ -28,6 +28,7 @@ class Experience extends Component {
             </Badge>
           );
         });
+
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -75,9 +76,10 @@ class Experience extends Component {
           </div>
         </div>
         <div className="col-md-8 mx-auto">
-          <VerticalTimeline>
-            {work}
-            <VerticalTimelineElement
+          <div className="timeline-container">
+            <VerticalTimeline>
+              {work}
+              <VerticalTimelineElement
               iconStyle={{
                 background: "#AE944F",
                 color: "#fff",
@@ -88,6 +90,7 @@ class Experience extends Component {
               }
             />
           </VerticalTimeline>
+          </div>
         </div>
       </section>
     );
