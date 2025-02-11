@@ -82,6 +82,14 @@ const About = (props) => {
                   <br />
                   <br />
                   {about}
+                  <br />
+                  <br />
+                  <div className="resume-button-container">
+                    <p>Feel free to grab a copy of my resume here!</p>
+                    <a href={resumeBasicInfo?.resume_url} target="_blank" rel="noopener noreferrer">
+                      <button className="btn btn-primary">Download Resume</button>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

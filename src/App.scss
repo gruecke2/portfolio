@@ -422,12 +422,7 @@ header h1 {
 
 #skills {
 	background: #1F1F1F;
-	background:
-	linear-gradient(45deg, #282c34 25%, transparent 25%),
-	linear-gradient(-45deg, #282c34 25%, transparent 25%),
-	linear-gradient(45deg, transparent 75%, #282c34 75%),
-	linear-gradient(-45deg, transparent 75%, #282c34 75%);
-	background-size: cover;
+	background-size: contain;
 	background-color: #1e1e1e;
 	z-index: -1;
 	min-height: 200px;
@@ -512,5 +507,8 @@ footer a:focus {
 	@media (max-width: 1024px) {
 		background-size: cover;
 	}
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
 }
 
