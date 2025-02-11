@@ -27,10 +27,11 @@ const Skills = ({ sharedSkills, resumeBasicInfo }) => {
   ));
 
   return (
-    <section id="skills">
+    <section id="skills" className="parallax">
       <div className="col-md-12">
         <div className="col-md-12">
           <h1 className="section-title">
+
             <span className="text-white">{sectionName}</span>
           </h1>
         </div>

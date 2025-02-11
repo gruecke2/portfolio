@@ -414,11 +414,29 @@ header h1 {
 
 #skills {
 	background: #1F1F1F;
+	background:
+	linear-gradient(45deg, #282c34 25%, transparent 25%),
+	linear-gradient(-45deg, #282c34 25%, transparent 25%),
+	linear-gradient(45deg, transparent 75%, #282c34 75%),
+	linear-gradient(-45deg, transparent 75%, #282c34 75%);
+	background-size: cover;
+	background-color: #1e1e1e;
+	z-index: -1;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
 	padding-bottom: 10%;
+	background-image: url("https://gruecke2.github.io/garret-portfolio/assets/images/stardust.png");
+	animation: shiftBackground 90s linear infinite;
+	background-attachment: fixed;
+
 }
+
+@keyframes shiftBackground {
+  0% { background-position: 0% 0%; }
+  100% { background-position: 100% 100%; }
+}
+
 
 .section-title {
 	padding-top: 5%;
@@ -486,6 +504,5 @@ footer a:focus {
 	@media (max-width: 1024px) {
 		background-size: cover;
 	}
-
 }
 
