@@ -128,7 +128,8 @@ header h1 {
 
 .foto div {
 	background: #ffffff;
-	display: inline-block;
+	display: block;
+	width: 100%;
 	margin: 0 auto 5% auto;
 	padding: 10px 10px 5px;
 	text-align: center;
@@ -281,6 +282,7 @@ header h1 {
 .vertical-timeline-element-date {
 	padding: 0 !important;
 	margin: 0 !important;
+	font-size: 2rem !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -392,7 +394,8 @@ header h1 {
 }
 
 .projects-pane {
-	transition:max-height 0.3s ease-out;
+	transition:max-height 0.8s ease-out;
+	overflow: hidden;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption {
@@ -430,9 +433,15 @@ header h1 {
 	overflow: hidden;
 	padding-bottom: 10%;
 	background-image: url("https://gruecke2.github.io/garret-portfolio/assets/images/stardust.png");
-	animation: shiftBackground 90s linear infinite;
+	animation: shiftBackground linear infinite;
+	animation-duration: 80s;
 	background-attachment: fixed;
+}
 
+@media (max-width: 1024px) {
+	#skills {
+		animation-duration: 25s;
+	}
 }
 
 @keyframes shiftBackground {
@@ -510,5 +519,63 @@ footer a:focus {
 	-webkit-transition: all 0.5s ease-in-out;
 	-moz-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
+}
+
+@keyframes fadeInUp {
+	from {
+		opacity: 0;
+		transform: translateY(30px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.project-card-enter {
+	animation: fadeInUp 0.7s ease-out forwards;
+}
+
+.projects-button-container {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	.btn-info {
+		background-color: $primary-orange;
+		border-color: $primary-orange;
+		color: white;
+		padding: 10px 20px;
+		font-size: 1.1rem;
+		margin-right: 10px;
+		transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
+		&:hover {
+			background-color: darken($primary-orange, 10%);
+			border-color: darken($primary-orange, 10%);
+		}
+	}
+
+	.btn-danger.btn-sm {
+		background-color: #6c757d;
+		border-color: #6c757d;
+		color: white;
+		padding: 8px 12px;
+		font-size: 1rem;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		line-height: 1;
+		transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
+		&:hover {
+			background-color: darken(#6c757d, 10%);
+			border-color: darken(#6c757d, 10%);
+		}
+	}
 }
 

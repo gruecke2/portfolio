@@ -76,6 +76,19 @@
             "name": "React"
           }
         ]
+      },
+      {
+        "title": "Svelte AI Recipe Generator",
+        "startDate": "2025",
+        "description": "A fun project to learn Svelte and AI. I used the OpenAI API to generate recipes based on a user's input. I also used the Spoonacular API to get recipe information and images.",
+        "url": "http://127.0.0.1:5173/",
+        "repoUrl": "https://github.com/gruecke2/",
+        "technologies": [
+          {
+            "class": "devicon-svelte-plain",
+            "name": "Svelte"
+          }
+        ]
       }
     ],
     "experience": [

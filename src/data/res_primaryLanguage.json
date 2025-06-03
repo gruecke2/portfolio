@@ -12,6 +12,31 @@
     },
     "projects": [
       {
+        "title": "Svelte + AI Recipe Generator",
+        "startDate": "2025",
+        "description": "A fun project to learn Svelte and AI. I used the Gemini API to generate recipes based on a user's input. It's a good demo of how to wrap an LLM in a frontend app.",
+        "images": [
+          "images/portfolio/ai-recipe/robo_chef.jpg",
+          "images/portfolio/ai-recipe/ai-recipe-app.jpg"
+        ],
+        "url": "https://recipe-maker-gruecke2.surge.sh/",
+        "repoUrl": "https://github.com/gruecke2/ai-recipe-app",
+        "technologies": [
+          {
+            "class": "devicon-svelte-plain",
+            "name": "Svelte"
+          },
+          {
+            "class": "devicon-google-plain",
+            "name": "Google Gemini"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
+      },
+      {
         "title": "The Gif Getter",
         "startDate": "2018",
         "description": "A quick and fun project I completed to work with API calls with AJAX. The Giphy API returns some great and hilarious gifs, so add a 'gif-getter' button to the list and click away!",
@@ -92,6 +117,8 @@
           "TypeScript"
         ],
         "technologies": [
+          "Next.js",
+          "TypeScript",
           "Java",
           "Spring Boot",
           "Hibernate",

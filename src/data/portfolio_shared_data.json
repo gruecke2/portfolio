@@ -21,88 +21,105 @@
         {
           "name": "HTML 5",
           "class": "devicon-html5-plain",
-          "level": "95"
+          "level": "95",
+          "area": "frontend"
         },
         {
           "name": "CSS 3",
           "class": "devicon-css3-plain",
-          "level": "95"
+          "level": "95",
+          "area": "frontend"
         },
         {
           "name": "Angular",
           "class": "devicon-angularjs-plain",
-          "level": "80"
+          "level": "80",
+          "area": "frontend"
         },
         {
           "name": "React",
           "class": "devicon-react-plain",
-          "level": "80"
+          "level": "80",
+          "area": "frontend"
         },
         {
           "name": "Next.js",
           "class": "devicon-nextjs-plain",
-          "level": "80"
+          "level": "80",
+          "area": "frontend"
         },
         {
           "name": "TypeScript",
           "class": "devicon-typescript-plain",
-          "level": "90"
+          "level": "90",
+          "area": "frontend"
         },
 
         {
           "name": "JavaScript",
           "class": "devicon-javascript-plain",
-          "level": "70"
+          "level": "70",
+          "area": "frontend"
         },
         {
           "name": "Sass",
           "class": "devicon-sass-original",
-          "level": "75"
+          "level": "75",
+          "area": "frontend"
         },
         {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "level": "85",
+          "area": "frontend"
         },
         {
           "name": "C#",
           "class": "devicon-csharp-plain",
-          "level": "65"
+          "level": "65",
+          "area": "backend"
         },
         {
           "name": "MySql",
           "class": "devicon-mysql-plain",
-          "level": "60"
+          "level": "60",
+          "area": "backend"
         },
         {
           "name": "Java",
           "class": "devicon-java-plain",
-          "level": "60"
+          "level": "60",
+          "area": "backend"
         },
         {
           "name": "Spring Boot",
           "class": "devicon-spring-plain",
-          "level": "60"
+          "level": "60",
+          "area": "backend"
         },
         {
           "name": "Node.js",
           "class": "devicon-nodejs-plain",
-          "level": "60"
+          "level": "60",
+          "area": "backend"
         },
         {
           "name": "AWS",
           "class": "devicon-amazonwebservices-plain",
-          "level": "60"
+          "level": "60",
+          "area": "cloud"
         },
         {
           "name": "Docker",
           "class": "devicon-docker-plain",
-          "level": "60"
+          "level": "60",
+          "area": "cloud"
         },
         {
           "name": "Git",
           "class": "devicon-git-plain",
-          "level": "60"
+          "level": "60",
+          "area": "version control"
         }
       ]
     } 

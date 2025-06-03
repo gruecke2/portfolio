@@ -43,6 +43,7 @@ const About = (props) => {
                   icon={vueIcon}
                   style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                 />
+                <span style={{ fontSize: "400%", margin: "9% 5% 0 5%" }} className="iconify" data-icon="devicon:svelte" data-inline="false"></span>
               </span>
             </div>
           </div>
@@ -84,10 +85,10 @@ const About = (props) => {
                   {about}
                   <br />
                   <br />
-                  <div className="resume-button-container">
+                  <div className="resume-button-container" >
                     <p>Feel free to grab a copy of my resume here!</p>
                     <a href={resumeBasicInfo?.resume_url} target="_blank" rel="noopener noreferrer">
-                      <button className="btn btn-primary">Download Resume</button>
+                      <button className="btn btn-primary btn-lg">Download Resume</button>
                     </a>
                   </div>
                 </div>
